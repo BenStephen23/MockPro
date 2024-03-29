@@ -50,6 +50,11 @@ body {
         margin-top: 25px;
         margin-left: 10px; 
     }
+
+    .log1 img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media (min-width: 451px) and (max-width: 530px) {
@@ -63,6 +68,10 @@ body {
     .pr button {
         font-size: 18px;
     }
+    .log1 img {
+        width: 40px;
+        height: 50px;
+    }
 }
 @media (min-width: 531px) and (max-width: 768px) {
     .pr span {
@@ -74,6 +83,10 @@ body {
     }
     .pr button {
         font-size: 18px;
+    }
+    .log1 img {
+        width: 40px;
+        height: 50px;
     }
     
 }
@@ -88,6 +101,10 @@ body {
     }
     .pr button {
         font-size: 18px;
+    }
+    .log1 img {
+        width: 40px;
+        height: 50px;
     }
     
 }
@@ -121,6 +138,29 @@ body {
     .wee {
         font-size: 30px !important;
         padding-top: 15px;
+    }
+    
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .wee {
+        font-size: 30px !important;
+        padding-top: 20px;
+    }
+    .pr span {
+        margin-top: 160px;
+        margin-left: 80px; 
+    }
+
+    .pr h3, p{
+        font-size: 23px;
+    }
+    .pr button {
+        font-size: 26px;
+    }
+    .log1 img {
+        width: 70px;
+        height: 70px;
     }
     
 }
