@@ -1,0 +1,48 @@
+body {
+    background-color: grey !important;
+}
+
+.ads {
+    background-color: azure !important;
+    color: darkblue;
+    border-radius: 5px;
+   
+}
+
+.ads h3 {
+    font-family: fantasy !important;
+}
+
+.img1 {
+    width: 70px!important;
+    height: 70px!important;
+}
+
+
+@media (min-width: 300px) and (max-width: 530px) {
+    .wee {
+        font-size: 17px !important;
+        padding-top: 15px;
+    }
+    .img1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 531px) and (max-width: 768px) {
+    .wee {
+        font-size: 30px !important;
+        padding-top: 15px
+    }
+    .img1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .wee {
+        font-size: 35px !important;
+        padding-top: 15px;
+    }
+    
+}
