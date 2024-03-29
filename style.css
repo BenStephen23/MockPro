@@ -37,12 +37,43 @@ body {
     background-color: darkblue;
     color: white;
     padding: 5px;
-    border: none;
+    border-color: #0d6efd
 }
 
 .pr button:hover {
     background-color: white;
     color: darkblue;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.container h3 {
+    font-family: fantasy;
+    color: white;
+    margin-top: 15px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.card-title {
+    font-family: fantasy;
+}
+
+.salebut {
+    font-family: fantasy;
+    background-color: darkblue !important;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.salebut:hover {
+    background-color: white!important;
+    color: darkblue!important;
 }
 
 @media (min-width: 300px) and (max-width: 450px) {
@@ -72,6 +103,8 @@ body {
         width: 40px;
         height: 50px;
     }
+
+    
 }
 @media (min-width: 531px) and (max-width: 768px) {
     .pr span {
@@ -121,6 +154,9 @@ body {
         width: 70%;
     }
 
+    .container h3 {
+        font-size: 35px;
+    }
     
 }
 
@@ -132,12 +168,18 @@ body {
     .img1 {
         display: none !important;
     }
+    .container h3 {
+        font-size: 45px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
     .wee {
         font-size: 30px !important;
         padding-top: 15px;
+    }
+    .container h3 {
+        font-size: 45px;
     }
     
 }
@@ -162,6 +204,8 @@ body {
         width: 70px;
         height: 70px;
     }
-    
+    .container h3 {
+        font-size: 55px;
+    }
 }
 
