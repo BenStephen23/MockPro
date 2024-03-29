@@ -18,7 +18,79 @@ body {
     height: 70px!important;
 }
 
+.pr {
+    background-color: black;
+    height: 100%;
+}
 
+.pr span {
+    color: white !important;
+    padding-top: 20px;
+}
+
+.pr h3, p{
+   font-family: fantasy;
+}
+
+.pr button {
+    font-family: fantasy;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.pr button:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+    .pr span {
+        margin-top: 25px;
+        margin-left: 10px; 
+    }
+}
+
+@media (min-width: 451px) and (max-width: 530px) {
+    .pr span {
+        margin-top: 100px;
+        margin-left: 40px; 
+    }
+    .pr h3, p{
+        font-size: 22px;
+    }
+    .pr button {
+        font-size: 18px;
+    }
+}
+@media (min-width: 531px) and (max-width: 768px) {
+    .pr span {
+        margin-top: 115px;
+        margin-left: 60px; 
+    }
+    .pr h3, p{
+        font-size: 23px;
+    }
+    .pr button {
+        font-size: 18px;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .pr span {
+        margin-top: 140px;
+        margin-left: 80px; 
+    }
+
+    .pr h3, p{
+        font-size: 23px;
+    }
+    .pr button {
+        font-size: 18px;
+    }
+    
+}
 @media (min-width: 300px) and (max-width: 530px) {
     .wee {
         font-size: 17px !important;
@@ -27,11 +99,17 @@ body {
     .img1 {
         display: none !important;
     }
+    
+    .img2 {
+        width: 70%;
+    }
+
+    
 }
 
 @media (min-width: 531px) and (max-width: 768px) {
     .wee {
-        font-size: 30px !important;
+        font-size: 25px !important;
         padding-top: 15px
     }
     .img1 {
@@ -41,8 +119,9 @@ body {
 
 @media (min-width: 769px) and (max-width: 1200px) {
     .wee {
-        font-size: 35px !important;
+        font-size: 30px !important;
         padding-top: 15px;
     }
     
 }
+
