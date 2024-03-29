@@ -76,6 +76,10 @@ body {
     color: darkblue!important;
 }
 
+footer {
+    color: white;
+}
+
 @media (min-width: 300px) and (max-width: 450px) {
     .pr span {
         margin-top: 25px;
